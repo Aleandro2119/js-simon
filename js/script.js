@@ -7,3 +7,18 @@ Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei num
 Bonus:
 controllare che i numeri casuali siano diversi tra loro
 controllare che l'utente non inserisca 2 volte lo stesso numero */
+
+// ! Funzione per numeri random e creo ciclo per generare massimo 5 numeri random (PUNTO 1)
+
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+
+let number = 0;
+let arrayNumbers = [];
+
+for (let i = 0; i < 5; i++) {
+    number = getRandomNumber(1, 80);
+    arrayNumbers.push(number);
+
+}
+
+console.log(arrayNumbers)
