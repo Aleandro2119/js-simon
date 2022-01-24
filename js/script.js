@@ -22,3 +22,8 @@ for (let i = 0; i < 5; i++) {
 }
 
 console.log(arrayNumbers)
+
+// ! Mostro i numeri con un' alert (PUNTO 2)
+
+
+const numberElement = alert(`I 5 numeri che dovrai ricordare sono ${arrayNumbers}`);
